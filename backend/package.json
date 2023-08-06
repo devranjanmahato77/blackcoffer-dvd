@@ -1,0 +1,22 @@
+{
+  "name": "blackcoffer-dvd",
+  "version": "1.0.0",
+  "description": "Test assignment assign by Blackcoffer to visualize a given data set.",
+  "main": "app.js",
+  "type": "module",
+  "engines": {
+    "node": ">=14.20.1"
+  },
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "devranjanmahato77",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.1.0"
+  }
+}
